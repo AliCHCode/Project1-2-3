@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;   
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    padding: 40px 0;
+} 
+nav{
+    display: flex;
+    align-items: center ;
+}
+nav> ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+} 
+nav> ul> li> a{
+    text-decoration: none;
+    color: gray; 
+    letter-spacing: 1px;
+    font-size: 1..1rem;
+}     
+.middle{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between; 
+    gap: 30px; 
+    margin-bottom: 70px;
+} 
+.midleft{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.midlefttop{
+    margin-bottom: 40px; 
+    display: block;
+}
+.midleftbottom{
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+.midleftbottomleft{
+    font-weight:bolder;
+    font-size: 3.5em;
+    width: 40%; 
+    line-height: 50px;
+}
+.midleftbottomright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.midleftbottomright> p{
+    line-height: 20px; 
+    letter-spacing: 1.2px;
+    color: gray; 
+}
+.button{
+    background-color: orangered;
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #03001A;
+    font-weight: 800; 
+    border-radius: 1px;
+} 
+.midright{
+    width: 33%;
+    background: #03001A;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;  
+}
+.midrighttop{
+    color: orange;
+    margin-bottom: 30px;
+}
+.midrighttop> span{
+    font-size: 2em; 
+}
+.midrighttop> span{
+    font-weight: 900;
+}
+.midrightbottom{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 20px;
+}
+.midrightbottom> div{
+    border-bottom: 1px solid gray; 
+    line-height: 25px; 
+    letter-spacing: 0.5px;
+}
+.midrightbottom> div> h2{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.midrightbottom> div> p{
+    color: gray;
+    margin-bottom: 28px;
+    font-weight: bold;
+} 
+.midrightbottom> div:last-child{
+    border-bottom: none; 
+}
+.thelastruiner{
+    margin-bottom: 0px !important;
+}  
+.bottom{
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin: 0 auto; 
+    margin-bottom: 100px;
+} 
+.numbers{
+    width: 25%; 
+    margin-right: 25px;
+}
+.bottomleft{ 
+    display: flex; 
+    width: 30%;
+} 
+.bottomright{
+    display: flex;  
+    justify-content: space-between;
+    width: 67%;
+}
+.bottomrightleft{
+    display: flex;
+    width:  47%;
+}
+.bottomrightright{
+    width: 380px;
+    display: flex; 
+    width: 47%;
+} 
+.başlık3{
+    color: orangered; 
+    font-weight: bolder;
+    font-size: 28px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+} 
+.başlık4{
+    font-size: 18px;  
+    letter-spacing: 1px;
+}  
+.sonparagraflar{
+    color: gray; 
+    letter-spacing: 1px;
+}
+.sonikililer{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+

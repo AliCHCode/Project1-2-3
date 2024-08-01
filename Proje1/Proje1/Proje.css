@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.main-container{
+    margin: auto;    
+    max-width: 1440px;
+}
+header{
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 80px;    
+    display: flex;
+    border-bottom: 2px solid gray;
+    justify-content:flex-start;
+    padding: 25px 0px;
+}
+.header-logo{
+    margin: auto 0px;
+}
+.header-nav{
+    margin: auto 0px;
+    margin-left:5%;
+}
+.header-nav ul{
+    gap: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.header-profile{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+/* header > div,header nav{
+    border: 1px solid black;
+} */
+.avatar{/*  */
+    width: 45px;
+}
+.marketicon{
+    width: 20px;
+}
+header ul li{
+    opacity: 0.6;
+    list-style-type: none;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 500px;
+    gap: 25px;
+}
+.leftside-up{
+    width: 80%;
+    margin: 0px auto;
+}
+.leftside-up img{
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+}
+.leftside-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 80%;
+}
+.leftside-down > div{
+    width: 20%;
+}
+.leftside-down > div > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    /* background-color: greenyellow ; */
+    width: 45%;
+    min-height: 500px;
+    justify-content: center;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 80%;
+    height: 235px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.h6 h6{
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+.h6{
+    margin-bottom: 15px;
+}
+.h1 h1{
+    text-align: center;
+    font-size: 2.7em;
+    text-align: left;
+}
+.h1{
+    margin-bottom: auto;
+}
+.p p{
+   opacity: 0.7;
+   letter-spacing: 1px;
+   font-weight:600;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    justify-content: flex-start;
+    gap: 10px; 
+    align-items: center;
+}
+.part2 > div{ 
+    display: flex;
+}
+.yüzyirmibeş{
+    font-weight: bold;
+    font-size:x-large;
+    opacity:0.9;
+}
+.elli{
+    background-color: black;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size:small;
+    font-weight: bold;
+}
+.part3{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.part3 > div{
+    text-decoration: line-through;
+    color: rgb(75,75,75);
+    font-weight: bold;
+}
+.part4{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 15px;
+}
+.part4 > div{
+    height: 50px;
+}
+.adet{
+    display: flex;
+    gap: 30px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+}
